@@ -3,7 +3,7 @@ arguments :
 -HD:\mh\android\github\MagicCamera\magicfilter
 -BD:\mh\android\github\MagicCamera\magicfilter\.externalNativeBuild\cmake\debug\x86_64
 -DANDROID_ABI=x86_64
--DANDROID_PLATFORM=android-16
+-DANDROID_PLATFORM=android-26
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\mh\android\github\MagicCamera\magicfilter\build\intermediates\cmake\debug\obj\x86_64
 -DCMAKE_BUILD_TYPE=Debug
 -DANDROID_NDK=D:\mh\android\sdk\ndk-bundle

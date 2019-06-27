@@ -49,6 +49,7 @@ public class MainActivity extends Activity {
     }
 
     private void startActivity(int id) {
+
         switch (id) {
             case R.id.button_camera:
                 startActivity(new Intent(this, CameraActivity.class));

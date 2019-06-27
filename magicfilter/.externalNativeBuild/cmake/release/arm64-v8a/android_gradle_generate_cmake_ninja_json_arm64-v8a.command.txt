@@ -3,7 +3,7 @@ arguments :
 -HD:\mh\android\github\MagicCamera\magicfilter
 -BD:\mh\android\github\MagicCamera\magicfilter\.externalNativeBuild\cmake\release\arm64-v8a
 -DANDROID_ABI=arm64-v8a
--DANDROID_PLATFORM=android-16
+-DANDROID_PLATFORM=android-26
 -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\mh\android\github\MagicCamera\magicfilter\build\intermediates\cmake\release\obj\arm64-v8a
 -DCMAKE_BUILD_TYPE=Release
 -DANDROID_NDK=D:\mh\android\sdk\ndk-bundle

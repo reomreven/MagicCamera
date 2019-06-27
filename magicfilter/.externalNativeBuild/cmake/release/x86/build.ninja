@@ -35,28 +35,28 @@ include rules.ninja
 build CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/Conversion.cpp.o: CXX_COMPILER__MagicJni ../../../../src/main/cpp/bitmap/Conversion.cpp
   DEFINES = -DMagicJni_EXPORTS
   DEP_FILE = CMakeFiles\MagicJni.dir\src\main\cpp\bitmap\Conversion.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   IN_ABS = D:\mh\android\github\MagicCamera\magicfilter\src\main\cpp\bitmap\Conversion.cpp
   OBJECT_DIR = CMakeFiles\MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles\MagicJni.dir\src\main\cpp\bitmap
 build CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o: CXX_COMPILER__MagicJni ../../../../src/main/cpp/bitmap/BitmapOperation.cpp
   DEFINES = -DMagicJni_EXPORTS
   DEP_FILE = CMakeFiles\MagicJni.dir\src\main\cpp\bitmap\BitmapOperation.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   IN_ABS = D:\mh\android\github\MagicCamera\magicfilter\src\main\cpp\bitmap\BitmapOperation.cpp
   OBJECT_DIR = CMakeFiles\MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles\MagicJni.dir\src\main\cpp\bitmap
 build CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o: CXX_COMPILER__MagicJni ../../../../src/main/cpp/beautify/MagicBeautify.cpp
   DEFINES = -DMagicJni_EXPORTS
   DEP_FILE = CMakeFiles\MagicJni.dir\src\main\cpp\beautify\MagicBeautify.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   IN_ABS = D:\mh\android\github\MagicCamera\magicfilter\src\main\cpp\beautify\MagicBeautify.cpp
   OBJECT_DIR = CMakeFiles\MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles\MagicJni.dir\src\main\cpp\beautify
 build CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o: CXX_COMPILER__MagicJni ../../../../src/main/cpp/MagicJni.cpp
   DEFINES = -DMagicJni_EXPORTS
   DEP_FILE = CMakeFiles\MagicJni.dir\src\main\cpp\MagicJni.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG  -fPIC
   IN_ABS = D:\mh\android\github\MagicCamera\magicfilter\src\main\cpp\MagicJni.cpp
   OBJECT_DIR = CMakeFiles\MagicJni.dir
   OBJECT_FILE_DIR = CMakeFiles\MagicJni.dir\src\main\cpp
@@ -68,8 +68,8 @@ build CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o: CXX_COMPILER__MagicJn
 #############################################
 # Link the shared library ..\..\..\..\build\intermediates\cmake\release\obj\x86\libMagicJni.so
 
-build ../../../../build/intermediates/cmake/release/obj/x86/libMagicJni.so: CXX_SHARED_LIBRARY_LINKER__MagicJni CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/Conversion.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o | D$:/mh/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16/liblog.so
-  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG
+build ../../../../build/intermediates/cmake/release/obj/x86/libMagicJni.so: CXX_SHARED_LIBRARY_LINKER__MagicJni CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/Conversion.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o | D$:/mh/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/26/liblog.so
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
   LINK_LIBRARIES = -llog -ljnigraphics -latomic -lm
   OBJECT_DIR = CMakeFiles\MagicJni.dir

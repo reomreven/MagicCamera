@@ -68,7 +68,7 @@ build CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o: CXX_COMPILER__MagicJn
 #############################################
 # Link the shared library ..\..\..\..\build\intermediates\cmake\debug\obj\arm64-v8a\libMagicJni.so
 
-build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libMagicJni.so: CXX_SHARED_LIBRARY_LINKER__MagicJni CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/Conversion.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o | D$:/mh/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/liblog.so
+build ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libMagicJni.so: CXX_SHARED_LIBRARY_LINKER__MagicJni CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/Conversion.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/bitmap/BitmapOperation.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/beautify/MagicBeautify.cpp.o CMakeFiles/MagicJni.dir/src/main/cpp/MagicJni.cpp.o | D$:/mh/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/26/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
   LINK_LIBRARIES = -llog -ljnigraphics -latomic -lm
