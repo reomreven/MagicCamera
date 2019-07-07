@@ -36,6 +36,8 @@ public class MainActivity extends Activity {
                 }
             }
         });
+
+        startActivity(new Intent(this, CameraActivity.class));
     }
 
     @Override

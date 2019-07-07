@@ -39,7 +39,6 @@ import java.util.Locale;
  * Created by why8222 on 2016/3/17.
  */
 public class CameraActivity extends Activity {
-    private LinearLayout mFilterLayout;
     private RecyclerView mFilterListView;
     private FilterAdapter mAdapter;
     private MagicEngine magicEngine;
@@ -110,14 +109,12 @@ public class CameraActivity extends Activity {
     }
 
     private void initView() {
-        mFilterLayout = (LinearLayout) findViewById(R.id.layout_filter);
         mFilterListView = (RecyclerView) findViewById(R.id.filter_listView);
 
         btn_shutter = (ImageView) findViewById(R.id.btn_camera_shutter);
         btn_mode = (ImageView) findViewById(R.id.btn_camera_mode);
 
         findViewById(R.id.btn_camera_filter).setOnClickListener(btn_listener);
-        findViewById(R.id.btn_camera_closefilter).setOnClickListener(btn_listener);
         findViewById(R.id.btn_camera_shutter).setOnClickListener(btn_listener);
         findViewById(R.id.btn_camera_switch).setOnClickListener(btn_listener);
         findViewById(R.id.btn_camera_mode).setOnClickListener(btn_listener);
@@ -185,7 +182,6 @@ public class CameraActivity extends Activity {
                     }
                     break;
                 case R.id.btn_camera_filter:
-                    showFilters();
                     break;
                 case R.id.btn_camera_switch:
                     magicEngine.switchCamera();
@@ -203,7 +199,6 @@ public class CameraActivity extends Activity {
                             .show();
                     break;
                 case R.id.btn_camera_closefilter:
-                    hideFilters();
                     break;
                 default:
                     break;
@@ -245,68 +240,6 @@ public class CameraActivity extends Activity {
             magicEngine.startRecord();
         }
         isRecording = !isRecording;
-    }
-
-    private void showFilters() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mFilterLayout, "translationY", mFilterLayout.getHeight(), 0);
-        animator.setDuration(200);
-        animator.addListener(new Animator.AnimatorListener() {
-
-            @Override
-            public void onAnimationStart(Animator animation) {
-                findViewById(R.id.btn_camera_shutter).setClickable(false);
-                mFilterLayout.setVisibility(View.VISIBLE);
-            }
-
-            @Override
-            public void onAnimationRepeat(Animator animation) {
-
-            }
-
-            @Override
-            public void onAnimationEnd(Animator animation) {
-
-            }
-
-            @Override
-            public void onAnimationCancel(Animator animation) {
-
-            }
-        });
-        animator.start();
-    }
-
-    private void hideFilters() {
-        ObjectAnimator animator = ObjectAnimator.ofFloat(mFilterLayout, "translationY", 0, mFilterLayout.getHeight());
-        animator.setDuration(200);
-        animator.addListener(new Animator.AnimatorListener() {
-
-            @Override
-            public void onAnimationStart(Animator animation) {
-                // TODO Auto-generated method stub
-            }
-
-            @Override
-            public void onAnimationRepeat(Animator animation) {
-                // TODO Auto-generated method stub
-
-            }
-
-            @Override
-            public void onAnimationEnd(Animator animation) {
-                // TODO Auto-generated method stub
-                mFilterLayout.setVisibility(View.INVISIBLE);
-                findViewById(R.id.btn_camera_shutter).setClickable(true);
-            }
-
-            @Override
-            public void onAnimationCancel(Animator animation) {
-                // TODO Auto-generated method stub
-                mFilterLayout.setVisibility(View.INVISIBLE);
-                findViewById(R.id.btn_camera_shutter).setClickable(true);
-            }
-        });
-        animator.start();
     }
 
     public File getOutputMediaFile() {

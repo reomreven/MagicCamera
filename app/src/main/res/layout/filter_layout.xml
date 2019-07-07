@@ -7,7 +7,7 @@
     android:background="@android:color/transparent">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/filter_listView"
+        android:id="@+id/filter_listView2"
         android:layout_width="match_parent"
         android:layout_height="94.0dip"
         android:padding="5.0dip"
